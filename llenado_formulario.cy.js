@@ -17,7 +17,7 @@ describe('Llenado de Formulario ', () => {
         //botón agregar
 
         cy.get("#addNewRecordButton").should("be.visible").click()
-        cy.get("#firstName").type("Magnolia").tab().
+        cy.get("#firstName").type("Abraham").tab().
             type("Marquina").tab().
             type("mmm@gmail.com").tab().
             type("33").tab().
