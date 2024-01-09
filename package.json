@@ -2,11 +2,14 @@
   "name": "e2e",
   "version": "1.0.0",
   "description": "",
-  "main": "Primer_Reto.cy.js",
+  "main": "./cypress/e2e/Primer_Reto.cy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.2"
+  }
 }
