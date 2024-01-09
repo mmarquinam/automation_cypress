@@ -1,7 +1,0 @@
-{
-    "cypress": {
-      "testFolder": "./cypress/e2e/",
-      "viewportWidth": 1300,
-      "viewportHeight": 660
-    }
-  }
